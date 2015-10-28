@@ -1,0 +1,47 @@
+@import "bourbon";
+@import "font-awesome";
+
+  body {
+      @include linear-gradient(to top, black, red); 
+
+    background-image: url("http://orig14.deviantart.net/0518/f/2007/006/9/7/evil_face_by_grievence.jpg");
+    background-repeat: repeat-y;
+}
+img {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  border-radius: 41px;
+  max-height: 250px;
+}
+.app {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  @include linear-gradient(to top, orange, red); 
+  
+  border: 10px solid #D67A22;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 5px rgba(68,85,102,0.5);
+  length: 100px;
+}
+h1 {
+  font-size: 16pt;
+  text-align: center;
+}
+h2 {
+  font-size: 14pt;
+  text-align: center;
+
+}
+ul {
+  list-style: none;
+}
+.todo-list-item
+ {text-align: center;}
+ .name {
+  font-weight: normal;
+  max-width: 500px;
+
+ }
